@@ -7,7 +7,7 @@ module.exports = React.createClass({
     event.target.disabled = true
     event.target.className += ' Liked'
   },
-  render: function() {
+  render: function () {
     return (
       <input value='LIKE' onClick={this.handleClick} type='button' className='LikeButton'/>
     )
